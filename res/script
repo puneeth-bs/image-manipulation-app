@@ -1,0 +1,140 @@
+load sample.png sample
+
+load sample_mask.png sample_mask
+
+blur sample sample-blur
+
+sharpen sample sample-sharpen
+
+brighten 50 sample sample-brighten-50
+
+brighten -50 sample sample-darken-50
+
+
+red-component sample sample-red
+
+blue-component sample sample-blue
+
+green-component sample sample-green
+
+luma-component sample sample-luma
+
+intensity-component sample sample-intensity
+
+value-component sample sample-value
+
+save sample-luma.png sample-luma
+
+save sample-intensity.png sample-intensity
+
+save sample-red.png sample-red
+
+save sample-blue.png sample-blue
+
+save sample-green.png sample-green
+
+save sample-blur.png sample-blur
+
+save sample-sharpen.png sample-sharpen
+
+save sample-brighten-50.png sample-brighten-50
+
+save sample-darken-50.png sample-darken-50
+
+
+save sample-value.png sample-value
+
+compress 10 sample sample_compress_10
+
+compress 50 sample sample_compress_50
+
+histogram sample sample_histogram
+
+histogram sample_compress_10 sample_compress_10_histogram
+
+histogram sample_compress_50 sample_compress_50_histogram
+
+color-correct sample sample_color_correct
+
+histogram sample_color_correct sample_color_correct_histogram
+
+levels-adjust 30 128 220 sample sample_level_adjust_1
+
+levels-adjust 50 100 200 sample sample_level_adjust_2
+
+histogram sample_level_adjust_1 sample_level_adjust_1_histogram
+
+histogram sample_level_adjust_2 sample_level_adjust_2_histogram
+
+save sample_compress_10.png sample_compress_10
+
+save sample_compress_50.png sample_compress_50
+
+save sample_histogram.png sample_histogram
+
+save sample_compress_10_histogram.png sample_compress_10_histogram
+
+save sample_compress_50_histogram.png sample_compress_50_histogram
+
+save sample_color_correct.png sample_color_correct.png
+
+save sample_color_correct_histogram.png sample_color_correct_histogram
+
+save sample_level_adjust_1_histogram.png sample_level_adjust_1_histogram
+
+save sample_level_adjust_2_histogram.png sample_level_adjust_2_histogram
+
+save sample_level_adjust_1.png sample_level_adjust_1
+
+save sample_level_adjust_2.png sample_level_adjust_2
+
+blur sample sample_blur_split_50 split 50
+
+sepia sample sample_sepia_split_20 split 20
+
+sharpen sample sample_sharpen_split_80 split 80
+
+save sample_blur_split_50.png sample_blur_split_50
+
+save sample_sepia_split_20.png sample_sepia_split_20
+
+save sample_sharpen_split_80.png sample_sharpen_split_80
+
+blur sample sample_mask partial_blur_sample
+
+sharpen sample sample_mask partial_sharpen_sample
+
+sepia sample sample_mask partial_sepia_sample
+
+red-component sample sample_mask partial_red_component_sample
+
+blue-component sample sample_mask partial_blue_component_sample
+
+green-component sample sample_mask partial_green_component_sample
+
+luma-component sample sample_mask partial_luma_component_sample
+
+intensity-component sample sample_mask partial_intensity_component_sample
+
+value-component sample sample_mask partial_value_component_sample
+
+save partial_value_component_sample.png partial_value_component_sample
+
+save partial_intensity_component_sample.png partial_intensity_component_sample
+
+save partial_luma_component_sample.png partial_luma_component_sample
+
+save partial_green_component_sample.png partial_green_component_sample
+
+save partial_blue_component_sample.png partial_blue_component_sample
+
+save partial_red_component_sample.png partial_red_component_sample
+
+save partial_sepia_sample.png partial_sepia_sample
+
+save partial_blur_sample.png partial_blur_sample
+
+save partial_sharpen_sample.png partial_sharpen_sample
+
+
+
