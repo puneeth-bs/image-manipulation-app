@@ -17,17 +17,17 @@ The JAR file for this application is located in the `res/` folder and is named *
 - **Modes**:
     1. **Graphical User Interface (GUI)**:
 
-    - **Command**: `java -jar Assignment6.jar`.
+    - **Command**: `java -jar IME-v1.jar`.
     - **Description**: Opens the application in GUI mode for interactive use.
 
     2. **Text-based Interactive Mode**:
 
-    - **Command**: `java -jar Assignment6.jar -text`.
+    - **Command**: `java -jar IME-v1.jar -text`.
     - **Description**: Opens the application in text mode for line-by-line script execution.
 
     3. **Script Execution Mode**:
 
-    - **Command**: `java -jar Assignment6.jar -file script`.
+    - **Command**: `java -jar IME-v1.jar -file script`.
     - **Description**: Executes a script file and shuts down after processing.
 
 ---
