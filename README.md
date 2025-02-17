@@ -11,7 +11,8 @@ transformations.
 
 ## How to Run the Application
 
-### Using the JAR File
+### Using the JAR File (IME-v1.jar in the `res/` Folder)
+The JAR file for this application is located in the `res/` folder and is named **`IME-v1.jar`**. You can run it in different modes based on your requirements.
 
 - **Modes**:
     1. **Graphical User Interface (GUI)**:
