@@ -34,13 +34,13 @@ transformations.
 ## Example Outputs
 
 ### Original Image
-![res/sample.png](sample.png)
+![sample.png](res/sample.png)
 
 ### Blurred Image
-![res/sample-blur.png](sample-blur.png)
+![res/sample-blur.png](res/sample-blur.png)
 
 ### Sharpened Image
-![res/sample-sharpen.png](sample-sharpen.png)
+![sample-sharpen.png](res/sample-sharpen.png)
 
 ---
 
