@@ -32,20 +32,6 @@ transformations.
 ---
 
 ## Example Outputs
-<style>
-  table {
-    width: 100%; /* Make table span full width */
-    text-align: center; /* Center-align text */
-  }
-  th, td {
-    padding: 10px; /* Add spacing inside cells */
-  }
-  img {
-    width: 200px; /* Increase image size */
-    height: auto; /* Maintain aspect ratio */
-  }
-</style>
-
 <table>
   <tr>
     <th>Original</th>
