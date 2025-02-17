@@ -44,24 +44,14 @@ transformations.
     <td><img src="res/sample-sharpen.png" /></td>
   </tr>
   <tr>
-    <th>Grayscale</th>
-    <th>Sepia</th>
-    <th>Edge Detection</th>
+    <th>Horizontal</th>
+    <th>Vertical</th>
+    <th>Image Compress</th>
   </tr>
   <tr>
-    <td><img src="res/sample-gray.png" /></td>
-    <td><img src="res/sample-sepia.png" /></td>
-    <td><img src="res/sample-edge.png" /></td>
-  </tr>
-  <tr>
-    <th>Brightened</th>
-    <th>Darkened</th>
-    <th>Contrast Adjusted</th>
-  </tr>
-  <tr>
-    <td><img src="res/sample-bright.png" /></td>
-    <td><img src="res/sample-dark.png" /></td>
-    <td><img src="res/sample-contrast.png" /></td>
+    <td><img src="res/sample-horizontal.png" /></td>
+    <td><img src="res/sample-vertical.png" /></td>
+    <td><img src="res/sample_compress_10.png" /></td>
   </tr>
 </table>
 
