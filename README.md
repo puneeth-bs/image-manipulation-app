@@ -195,11 +195,9 @@ scalable for future enhancements.
 - **Modularity**: Operations like flipping, filtering, and brightening are encapsulated in separate
   classes to ensure the system is easy to extend and maintain.
 
-## How to Run
+## How to Run Commands in Text Mode
 
-1. Run the `Main` class to start the application.
-2. The `TextController` will prompt for commands to load images, apply filters, flip images, etc.
-3. Example commands:
+Example commands:
     - `load res/sample.jpg sample`
     - `save res/sample.png sample`
     - `red-component sample sample-red`
