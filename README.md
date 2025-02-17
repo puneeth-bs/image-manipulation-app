@@ -8,6 +8,29 @@ color manipulation. The design follows **Object-Oriented Programming principles*
 on **modularity**, **scalability**, and the use of design patterns to apply filters and
 transformations.
 
+
+## How to Run the Application
+
+### Using the JAR File
+
+- **Modes**:
+    1. **Graphical User Interface (GUI)**:
+
+    - **Command**: `java -jar Assignment6.jar`.
+    - **Description**: Opens the application in GUI mode for interactive use.
+
+    2. **Text-based Interactive Mode**:
+
+    - **Command**: `java -jar Assignment6.jar -text`.
+    - **Description**: Opens the application in text mode for line-by-line script execution.
+
+    3. **Script Execution Mode**:
+
+    - **Command**: `java -jar Assignment6.jar -file script`.
+    - **Description**: Executes a script file and shuts down after processing.
+
+---
+
 ### MVC Structure
 
 The application is structured using the **Model-View-Controller (MVC)** design pattern:
