@@ -32,6 +32,20 @@ transformations.
 ---
 
 ## Example Outputs
+<style>
+  table {
+    width: 100%; /* Make table span full width */
+    text-align: center; /* Center-align text */
+  }
+  th, td {
+    padding: 10px; /* Add spacing inside cells */
+  }
+  img {
+    width: 200px; /* Increase image size */
+    height: auto; /* Maintain aspect ratio */
+  }
+</style>
+
 <table>
   <tr>
     <th>Original</th>
@@ -39,9 +53,9 @@ transformations.
     <th>Sharpened</th>
   </tr>
   <tr>
-    <td><img src="res/sample.png" width="150"/></td>
-    <td><img src="res/sample-blur.png" width="150"/></td>
-    <td><img src="res/sample-sharpen.png" width="150"/></td>
+    <td><img src="res/sample.png" /></td>
+    <td><img src="res/sample-blur.png" /></td>
+    <td><img src="res/sample-sharpen.png" /></td>
   </tr>
   <tr>
     <th>Grayscale</th>
@@ -49,9 +63,9 @@ transformations.
     <th>Edge Detection</th>
   </tr>
   <tr>
-    <td><img src="res/sample-gray.png" width="150"/></td>
-    <td><img src="res/sample-sepia.png" width="150"/></td>
-    <td><img src="res/sample-edge.png" width="150"/></td>
+    <td><img src="res/sample-gray.png" /></td>
+    <td><img src="res/sample-sepia.png" /></td>
+    <td><img src="res/sample-edge.png" /></td>
   </tr>
   <tr>
     <th>Brightened</th>
@@ -59,11 +73,12 @@ transformations.
     <th>Contrast Adjusted</th>
   </tr>
   <tr>
-    <td><img src="res/sample-bright.png" width="150"/></td>
-    <td><img src="res/sample-dark.png" width="150"/></td>
-    <td><img src="res/sample-contrast.png" width="150"/></td>
+    <td><img src="res/sample-bright.png" /></td>
+    <td><img src="res/sample-dark.png" /></td>
+    <td><img src="res/sample-contrast.png" /></td>
   </tr>
 </table>
+
 
 
 ---
