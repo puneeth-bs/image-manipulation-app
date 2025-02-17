@@ -31,6 +31,19 @@ transformations.
 
 ---
 
+## Example Outputs
+
+### Original Image
+![sample.png](sample.png)
+
+### Blurred Image
+![sample-blur.png](sample-blur.png)
+
+### Sharpened Image
+![sample-sharpen.png](sample-sharpen.png)
+
+---
+
 ### MVC Structure
 
 The application is structured using the **Model-View-Controller (MVC)** design pattern:
