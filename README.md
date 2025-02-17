@@ -32,15 +32,39 @@ transformations.
 ---
 
 ## Example Outputs
+<table>
+  <tr>
+    <th>Original</th>
+    <th>Blurred</th>
+    <th>Sharpened</th>
+  </tr>
+  <tr>
+    <td><img src="res/sample.png" width="150"/></td>
+    <td><img src="res/sample-blur.png" width="150"/></td>
+    <td><img src="res/sample-sharpen.png" width="150"/></td>
+  </tr>
+  <tr>
+    <th>Grayscale</th>
+    <th>Sepia</th>
+    <th>Edge Detection</th>
+  </tr>
+  <tr>
+    <td><img src="res/sample-gray.png" width="150"/></td>
+    <td><img src="res/sample-sepia.png" width="150"/></td>
+    <td><img src="res/sample-edge.png" width="150"/></td>
+  </tr>
+  <tr>
+    <th>Brightened</th>
+    <th>Darkened</th>
+    <th>Contrast Adjusted</th>
+  </tr>
+  <tr>
+    <td><img src="res/sample-bright.png" width="150"/></td>
+    <td><img src="res/sample-dark.png" width="150"/></td>
+    <td><img src="res/sample-contrast.png" width="150"/></td>
+  </tr>
+</table>
 
-### Original Image
-![sample.png](res/sample.png)
-
-### Blurred Image
-![res/sample-blur.png](res/sample-blur.png)
-
-### Sharpened Image
-![sample-sharpen.png](res/sample-sharpen.png)
 
 ---
 
