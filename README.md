@@ -8,51 +8,6 @@ color manipulation. The design follows **Object-Oriented Programming principles*
 on **modularity**, **scalability**, and the use of design patterns to apply filters and
 transformations.
 
-## Design Changes
-
-### 1. Partial Image Manipulation
-
-1. Addition of `applyPartialFilter` Method
-
-- A new method `applyPartialFilter` was added to the `ImageModel` interface.
-- This method selectively applies a filter to an image based on a mask image.
-- The implementation:
-    - Retrieves pixel data from the original image, filter image, and mask image.
-    - Validates that all three images are of the same dimensions.
-    - Loops through each pixel in the image:
-        - If the corresponding pixel in the mask image is black (`255, 255, 255`), the filter's
-          pixel is applied.
-        - Otherwise, the pixel from the original image is retained.
-- Introducing this method into ImageModel provides a clear, reusable abstraction for applying
-  filters based on mask images, adhering to the Single Responsibility Principle.
-
-### 2. Downscaling
-
-- **Requirement**: Resize an image to a smaller resolution with different height or width.
-- **Design Changes**:
-    1. **Downscaling Method in `ImageModel`**:
-        - Added a `downscaleImage(int targetWidth, int targetHeight)` method to the `ImageModel`
-          interface.
-        - Implemented logic in the `ImageProcessingModel` class.
-        - Included validation logic for target dimensions to ensure they are positive and smaller
-          than the original dimensions.
-    2. **Controller and GUI Integration**:
-        - Updated `ImageController` to handle downscaling requests from the GUI.
-        - Enhanced the GUI with input fields for width and height, allowing users to specify target
-          dimensions.
-        - Added error handling in the controller for invalid inputs (e.g., negative dimensions,
-          empty fields).
-
-### 4. Testing
-
-- **Mock Implementations**:
-    - Created `MockImageModel` and `MockImageView` classes to simulate behaviors for testing the
-      `ImageController`.
-- **Unit Tests**:
-    - Added comprehensive test cases for partial image manipulation, downscaling, and their
-      integration with the controller.
-    - Verified error handling and edge cases (e.g., invalid dimensions, empty masks).
-
 ### MVC Structure
 
 The application is structured using the **Model-View-Controller (MVC)** design pattern:
